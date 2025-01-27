@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
 
-        final int LIMIT = 200000;
+        final int LIMIT = 300000;
 
         // Create a list and fill it with numbers
         ArrayList<Integer> list = new ArrayList<>();
@@ -39,5 +39,6 @@ public class Main {
             }
         }
         System.out.println();
+
     }
 }
