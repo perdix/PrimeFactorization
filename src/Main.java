@@ -9,10 +9,10 @@ public class Main {
     public static void main(String[] args) {
 
         // Create a queue
-        Queue<Integer> queue = new LinkedList<Integer>();
+        Queue<Integer> queue = new LinkedList<>();
 
         // Fill the queue with numbers from 1 to 100
-        for (int i = 1; i <= 100000; i++) {
+        for (int i = 1; i <= 300000; i++) {
             queue.add(i);
         }
 
